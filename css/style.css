@@ -16,7 +16,7 @@ h1 {
   font-family: "Lora", serif;
   font-weight: 400;
   color: #143774;
-  font-size: 2rem;
+  font-size: 1.75rem;
   margin: 0;
 }
 
@@ -25,7 +25,7 @@ h1 {
   color: #1792d2;
   font-size: 0.75rem;
   text-transform: uppercase;
-  margin: 0;
+  margin: 0.5rem 0;
   letter-spacing: 0.2rem;
 }
 
@@ -33,6 +33,15 @@ nav {
   letter-spacing: 0.2rem;
 }
 
+.container-footer {
+  color: #fff;
+  opacity: 0.54;
+}
+
+footer p,
+h3 {
+  margin: 0.5rem 0;
+}
 /* =================
     Layout
   ================== */
@@ -73,6 +82,7 @@ nav a {
   font-weight: 700;
   padding: 0.25em 0;
   text-transform: uppercase;
+  font-size: 0.75rem;
 }
 
 nav a:hover,
@@ -86,6 +96,23 @@ nav a:focus {
 
 .current-page:hover {
   color: #707070;
+}
+
+/* Main */
+
+.container-main {
+  border: 1px solid green;
+}
+
+/* Footer */
+footer {
+  background: #143774;
+  padding: 3em 0;
+  margin: 0 auto;
+}
+
+.container-footer {
+  text-align: center;
 }
 
 /* =================
