@@ -83,8 +83,6 @@ nav {
 
 .article-info {
   margin: 2em 0;
-  padding-bottom: 2em;
-  border-bottom: 2px solid lightgray;
 }
 
 .container-footer {
@@ -170,6 +168,14 @@ main {
 
 aside {
   width: 100%;
+}
+
+/* Arrticle */
+
+.article-featured {
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+  border-bottom: 1.5px solid lightgrey;
 }
 
 /* Footer */
