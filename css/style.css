@@ -23,6 +23,7 @@ img {
 h1,
 h2,
 h3 {
+  margin-top: 0;
   font-family: "Lora", serif;
   font-weight: 400;
   color: #143774;
@@ -59,7 +60,8 @@ nav {
   letter-spacing: 0.2rem;
 }
 
-.article-title {
+.article-title,
+.widget-title {
   font-size: 1.5rem;
 }
 
@@ -88,10 +90,6 @@ nav {
 .container-footer {
   color: #fff;
   opacity: 0.54;
-}
-
-.widget-title {
-  font-size: 1.5rem;
 }
 
 footer p {
@@ -178,6 +176,21 @@ aside {
   border-bottom: 1.5px solid lightgrey;
 }
 
+/* arrages the order of the article info */
+.article-recent {
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-recent-main {
+  order: 2;
+}
+
+.article-recent-secondary {
+  order: 1;
+}
+
 /* Footer */
 
 footer {
@@ -220,3 +233,15 @@ footer {
     margin-left: 2em;
   }
 }
+
+/* hacky way to position the article title to the left and 
+   the article date/comments to the right. Not best practice */
+/* @media (min-width: 550px) {
+  .article-recent-main {
+    margin-top: -3em;
+  }
+
+  .article-info {
+    text-align: right;
+  }
+} */
