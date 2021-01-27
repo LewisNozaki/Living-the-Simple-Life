@@ -8,6 +8,7 @@ body {
   font-family: "Ubuntu", sans-serif;
   font-size: 1.125rem;
   font-weight: 300;
+  color: grey;
 }
 
 img {
@@ -80,9 +81,19 @@ nav {
   text-decoration: underline;
 }
 
+.article-info {
+  margin: 2em 0;
+  padding-bottom: 2em;
+  border-bottom: 2px solid lightgray;
+}
+
 .container-footer {
   color: #fff;
   opacity: 0.54;
+}
+
+.widget-title {
+  font-size: 1.5rem;
 }
 
 footer p {
