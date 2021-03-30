@@ -29,6 +29,10 @@ h3 {
   color: #143774;
 }
 
+h3 {
+  color: #1792d2;
+}
+
 h1 {
   font-size: 1.75rem;
   margin: 0;
@@ -95,6 +99,10 @@ nav {
 .widget-title,
 .widget-recent-post-title {
   font-size: 1rem;
+}
+
+.widget-recent-post-title {
+  color: #143774;
 }
 
 .article-info {
@@ -178,7 +186,6 @@ nav a:focus {
 }
 
 /* Main */
-
 main {
   width: 100%;
 }
@@ -187,8 +194,18 @@ aside {
   width: 100%;
 }
 
-/* Arrticle */
+.container-main > img {
+  max-height: 350px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 2em;
+}
 
+.container-main {
+  margin-bottom: 10em;
+}
+
+/* Arrticle */
 .article-featured {
   padding-bottom: 2em;
   margin-bottom: 2em;
@@ -211,7 +228,6 @@ aside {
 }
 
 /* Footer */
-
 footer {
   background: #143774;
   padding: 3em 0;
@@ -317,15 +333,3 @@ footer {
     margin: 1em 0;
   }
 }
-
-/* hacky way to position the article title to the left and 
-   the article date/comments to the right. Not best practice */
-/* @media (min-width: 550px) {
-  .article-recent-main {
-    margin-top: -3em;
-  }
-
-  .article-info {
-    text-align: right;
-  }
-} */
