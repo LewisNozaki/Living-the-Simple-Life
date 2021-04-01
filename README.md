@@ -2,7 +2,7 @@
 
 A simple blog template project that utilized mobile first responsiveness and also a clean modern design.
 
-![Screenshot 1](/assets/screenshot-1.jpg)
+![Screenshot 1](../assets/screenshot-1.jpg)
 
 ![Screenshot 2](/assets/screenshot-2.jpg)
 
