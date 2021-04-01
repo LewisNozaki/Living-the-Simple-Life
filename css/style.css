@@ -178,6 +178,7 @@ nav a:focus {
 }
 
 .current-page {
+  padding-bottom: 5px;
   border-bottom: 1px solid #707070;
 }
 
@@ -232,6 +233,8 @@ footer {
   background: #143774;
   padding: 3em 0;
   margin: 0 auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .container-footer {
@@ -304,7 +307,7 @@ footer {
 
   .sidebar-widget {
     padding: 1.5rem;
-    border: 20px solid rgb(231, 229, 229);
+    border: 10px solid rgb(231, 229, 229);
     margin-bottom: 2em;
   }
 
